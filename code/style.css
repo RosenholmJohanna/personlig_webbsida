@@ -1,0 +1,44 @@
+ body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+ }
+ 
+ header {
+    background:url("bild.jpg"); 
+    color:#314448;
+    height:250px;
+    position:relative;
+    background-size:cover;
+    display:cover;
+} 
+
+h1{
+    margin: 0;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+img {
+    height: 20vh;
+    width: 20vh;
+    border-radius:50%;
+    border-color: #ffffff; 
+    border: 2px solid #ffffff;
+    border: 2px solid white;
+    position:absolute;
+    right: 5%;
+    bottom: -10%;
+    object-fit: cover;
+}
+
+
+footer {
+    height: 30vh;
+    padding: 10px;
+    background-color: #7c9a92;
+    color: #314448;
+    text-align: center;
+}
