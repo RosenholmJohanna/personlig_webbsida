@@ -1,26 +1,42 @@
  body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Roboto", "Montserrat",Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
  }
  
  header {
-    background:url("bild.jpg"); 
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    background-image:url("bild.jpg"); 
+    background-repeat: no-repeat;
     color:#314448;
-    height:250px;
+    height:350px;
     position:relative;
     background-size:cover;
-    display:cover;
+    /* display:cover;  */
 } 
 
+.sub-header{
+    margin-left: 11%;
+    font-size: 20px;
+}
+
 h1{
-    margin: 0;
+    /* margin: 0; */
+    margin-top:0;
+    margin-left: 5%;
+    padding-top: 5%;
 }
 
 h2{
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: bold;  
+    margin-top:0;
 }
 
+h3{
+    font-size: 16px;
+   
+}
 img {
     height: 20vh;
     width: 20vh;
@@ -30,10 +46,48 @@ img {
     border: 2px solid white;
     position:absolute;
     right: 5%;
-    bottom: -10%;
+    bottom: -8%;
     object-fit: cover;
 }
 
+.about-me-section{
+    margin: 0;
+    height: 20vh;
+    background-color: whitesmoke;
+    padding-top:7%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+p{
+    font-size: 14px;
+}
+
+.list-section{
+    background-color: #7c9a92;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+}
+
+.link-section {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    background-color: white;
+}
+
+.form-section{
+    background-color: #7c9a92;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+}
+
+.div-flex{
+    flex-direction: column;
+}
 
 footer {
     height: 30vh;

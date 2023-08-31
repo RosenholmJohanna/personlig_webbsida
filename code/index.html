@@ -5,19 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personlig Webbsida</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link 
+      rel="stylesheet" 
+      href="./style.css"
+    />
+    <link
+      rel="stylesheet"
+      @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
+      @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap);
+    />
   </head>
  <header>
     <h1>Johanna Rosenholm</h1>
+    <p class="sub-header">Min personliga webbsida</p>
     <div>
         <img src="bild.jpg" alt="en bild">
     </div>
 </header>
-<body>   
-  <section>
-    <h2>Om mig</h2>
-    <p>test</p>
-    <p>test</p>
+<body>  
+  <section class="about-me-section">
+    <p>lorem ipsum lorem ipsum loren ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui in blanditiis eius quod natus sint explicabo ullam, consequuntur sunt quisquam accusamus mollitia officiis ex voluptates quasi facere laboriosam magnam harum.
+    </p>
+  </section>
+
+  
+  <section class="list-section">
+    <div class="div-flex">
+      <h2>Lista flex</h2>
+      <h3>Om mig</h3>
+      <p>lorem</p>
+      <p>ipsum</p>
+
+      <h3>Om mig</h3>
+      <p>lorem</p>
+      <p>ipsum</p>
+
+      <h3>Om mig</h3>
+      <p>lorem</p>
+      <p>ipsum</p>
+    </div>
+  </section>
+
+  <section class="link-section">
+    <div class="div-flex">
+      <h2>Länkar flex</h2>
+      <p>lorem</p>
+      <p>ipsum</p>
+    </div>
+  </section>
+    <section class="form-section">
+      <form>
+        <div>
+          <h3>Contact me</h3>
+        </div>
+        <div>
+          <textarea 
+            type="textarea"
+            label="input-area" 
+            placeholder="message">message here
+            </textarea>
+        </div>
+        <div>
+          <button type="button">
+            Send
+          </button>
+        </div>
+    </form>
   </section>
 <footer>
       <p>
